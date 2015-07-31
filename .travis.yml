@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- 0.10.28
+services: mongodb
+env:
+  global:
+  - secure: GaLiAioL2IFSirdKawk7AT1ON48+06WzP/A/j496CpjObP7f52hlAn9bjff/xTy0+nWNv6Q8Ihe+jOO5hBUrCfJibZTMEP3Y5rYvsv1yuRuxFK3GbdpNvCpFTYlHgN0Q+T+i/QkIq1IVo8Fgb4dWZWVjMH/LJJRyoV18LtitSzs=
+  - secure: AsNRhqM3e9JjaEOEgJdIqmoo3FhQubdO3MEnPeHnT66/P9z/CFC+lvLT9DqzmoR4dekwnJcE0ewTsAn0zUmQQBBqVNCvtmH0A9yXbmmlKxz83c6fpGFSeIOgwT2XMYS0gky1JasEoyORNSJRza+J0QgcQjvPm+wbnSPOb/2QYx0=
+  - secure: IRwqaIg7kRcBEq2iZ+b4OIdmWyC5sqjeFvx+5kQo4urfXXdzNGZzpXALw5r0H3iC2ijrvKy9dagVI50LBV/leqH5BIJMDNMnTqCnAH6BqbdBfiU4LR5AYRNXoWemXEKe5R7Pus208Nc0sF3JTz6okrxN1kA4mVHtBf+5dsolYkY=
+deploy:
+  provider: heroku
+  app: shopify-private-app-template
+  api_key: 3b7d1520-ee70-4f03-8243-e0181fde579a
+  strategy: git

@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Shopify Private App</title>
+        <script type="text/javascript">
+           if (window.location.hash === '#_=_') {
+               window.location.hash = ''
+           }
+        </script>
+        <script src="/bower_components/requirejs/require.js"></script>
+        <script src="/lib/require-config.js"></script>
+
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    </head>
+    <body>
+        <script src="<%= page %>"></script>
+    </body>
+</html>

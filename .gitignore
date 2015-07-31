@@ -1,0 +1,12 @@
+/node_modules/
+.DS_Store
+/public/bower_components
+/public/lib
+.sass-cache
+dist
+.tmp
+.editorconfig
+/public/styles/main.css
+.env
+_SpecRunner.html
+.grunt/
